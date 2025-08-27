@@ -38,9 +38,9 @@ const Quiz = () => {
   };
 
   return (
-    <div className="w-full h-screen flex bg-[#FCFAEE] justify-center">
+    <div className="w-full min-h-screen flex bg-[#FCFAEE] justify-center p-2 sm:p-4">
       <div
-        className="border-2 rounded-lg w-3/5 h-5/6 border-[#1E3E62] my-1 flex flex-col overflow-y-auto p-2"
+        className="border-2 rounded-lg w-full sm:w-4/5 lg:w-3/5 min-h-[80vh] border-[#1E3E62] my-1 flex flex-col overflow-y-auto p-2"
         style={{
           scrollbarWidth: "thin",
           scrollbarColor: "#FCFAEE,",

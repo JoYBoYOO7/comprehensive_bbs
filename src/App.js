@@ -9,7 +9,7 @@ import Quiz from "./Components/Quiz";
 
 const App = () => {
   return (
-    <div className="overflow-hidden h-screen">
+    <div className="min-h-screen w-full overflow-x-hidden">
       <Navbar />
       <div>
         <Outlet />
