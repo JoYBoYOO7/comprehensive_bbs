@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gradient-to-br from-[#FCFAEE] to-[#E8F0FE] text-gray-800;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-sans font-semibold;
+}
+
+button {
+  @apply transition-transform duration-300 hover:scale-105;
+}
+
+a {
+  @apply transition-colors duration-300;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(30, 62, 98, 0.5);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(252, 250, 238, 0.3);
+}
