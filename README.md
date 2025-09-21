@@ -2,9 +2,7 @@
 
 A responsive and interactive web-based quiz application designed for **VIT Comprehensive Exams (BBS 2025)**.  
 Built with **React.js**, it allows students to practice multiple-choice questions efficiently with real-time feedback and a clean, modern UI.
-
 ---
-
 ## Features
 
 - **100-question quiz per session** with randomized questions and options.
